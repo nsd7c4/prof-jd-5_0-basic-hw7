@@ -80,7 +80,6 @@ public class Main {
         StringBuilder sb = new StringBuilder();
         char[] arr = s.toCharArray();
         int i;
-        int j;
         for (i = 0; i < arr.length - 1; i++) {
             if (arr[i] == arr[i + 1]) {
                 sb.append(arr[i]);
